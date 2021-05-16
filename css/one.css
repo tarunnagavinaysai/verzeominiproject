@@ -1,0 +1,144 @@
+
+<style>
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+a:hover, a:active {
+  background-color: gray;
+}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 12px 12px;
+}
+
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+ padding:20px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 5px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color:gray;
+  color: white;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+.header{
+position:fixed;
+width:97%;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:blue;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:gray;
+  padding: 40px;
+ margin-top:10px;
+	margin-bottom:20px;
+  margin-left:10%;
+  margin-right:10%;
+}
+.column {
+ float:left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+       
+
+.container1{
+ 
+  text-align: center;
+  color: white;
+}
+.centered {
+ position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered a:hover {
+  background-color:blue;
+  color: white;
+}
+.centered a {
+  float: left;
+  color: white;
+  background-color:gray;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.mygal{
+padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  margin:10%;
+}
+
+</style>
