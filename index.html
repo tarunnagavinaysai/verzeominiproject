@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<style>
+body {
+font-family: "Times New Roman", Georgia, Serif;
+background-image: url('images/bg.jpg');
+  background-repeat: no-repeat;
+background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<html>
+<title>my photography</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "icon" href ="icon.png"> 
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/one.css">
+
+
+<body id="home">
+
+<!-- Header -->
+
+<div class="header" id="myheader">
+  <a href ="icon.png" class="logo">My Photogrphy</a>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#Gallary">Gallary</a>
+    <a href="#about">About</a>
+  </div>
+</div>
+<br><br><br><br><br><br>
+<div ><a style=" margin-left:50%; background-color: blue;color:white;padding: 14px 25px;text-align: center;text-decoration: none;display: inline-block;"
+href="#bottom">bottom</a></div>
+<br>
+<br>
+
+
+<!--hero image-->
+
+<div class="container1">
+  <img src="images/hero.jpg" alt="hero" style="width:80%;">
+  <div class="centered "><a href="#contact">Hire Me</a></div>
+</div>
+
+
+<!-- Page content -->
+
+<div >
+  <br id="Gallary" >
+<!-- gallary-->
+<h1 class="mygal"  ><b><center> <strong>My Gallary<b></strong></h1>
+<div class="row"  style="margin-left:10%;">
+  <div class="column">
+    <img src="images/1.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/2.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/3.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+<div class="row"  style="margin-left:10%;">
+  <div class="column">
+    <img src="images/4.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/5.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/6.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+<div class="row"  style="margin-left:10%;">
+  <div class="column">
+    <img src="images/7.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/8.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/9.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+<div class="row"  style="margin-left:10%;">
+  <div class="column">
+    <img src="images/10.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/11.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/12.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+<div class="row"   style="margin-left:10%;">
+  <div class="column">
+    <img src="images/13.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/14.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/15.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+ <!--about-->
+<br id="about"> <br><br><br><br><br><br>
+<div class="row"   style="margin-left:16%; margin-right:15%;">
+  <div class="column" style="width: 20%;">
+    <img  style="border-radius:50%; width:480%; " src="images/about1.jpg" alt="profile">
+  </div>
+  <div class="column" style="width: 50%; color:yellow;">
+    <br><br><br><br><br><br><br>
+    <h1><b><center>About <strong>Me<b></strong></h1>
+<p>“I am a photograher in India.our mission is Brook presents your services with flexible nienti and multipurpose layouts. You can select vorite layouts & elements for particular projects with unlimited mizationi possibilities. I build clean, appealing, and functional pictures which comply with the latest photos. But that’s just a part of it. I'm also an professional photographer in has regular freelancer at Designhill since over three years now.Design is my life. It’s my five-star spa. It’s my roller-coaster. It’s something I do before going to bed, and something I can’t wait to do in the mornings. Without it, my world would be black and white.”</p>
+<p  class="mb-5">Creative photograher with innovative ideas and a unique approach to visuals. More than seven years of experience developing designs for print media, online websites, video, and advertising. Solid understanding of marketing principles and advertising techniques. </p>
+
+  </div>
+</div>
+
+<!-- contact-->
+<br id="contact"> <br><br><br><br><br><br>
+   <div class="container" >
+   <h1 style="color:white;text-align:center;">contact us:</h1>
+  <form action="#home" onsubmit="myFunction()">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" required="true" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" required="true" name="country">
+      <option value="india">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" required="true" placeholder="Write something here" style="height:150px"></textarea>
+
+    <input type="submit" value="Submit">
+
+    </form>
+ <script>
+function myFunction() {
+  alert("The form was submitted");
+}
+</script>
+
+    </div>
+
+
+
+</div>
+<div id="bottom"><a style=" margin-left:50%; background-color: blue;color:white;padding: 14px 25px;text-align: center;text-decoration: none;display: inline-block;"
+href="#home">top</a></div>
+<br>
+<br>
+<!-- End page content -->
+<!-- Footer -->
+<footer class="container" style="text-align:center;margin:auto;background-color:orange;font-size:18px;">
+<div>
+	<i class="fa fa-phone"><p>+91 22-27782183</p></i>
+	
+</div>
+<div>
+	<i class="fa fa-envelope"></i>
+	<p><a href="mailto:support@edu.com">support@phography.com</a></p>
+</div>
+<p>Follow us on</p>
+<div class="footer-icons">
+					<a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>&nbsp&nbsp
+					<a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>&nbsp&nbsp
+					<a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>&nbsp&nbsp
+					<a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a>&nbsp&nbsp
+					<a href="http://www.youtube.com"><i class="fa fa-youtube"></i></a>
+<br>
+<br>
+<center>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This website <a href="#" target="#" class="text-primary">My Photography</a>
+</div>
+</footer>
+
+</body>
+</html>
